@@ -9,7 +9,7 @@ systemctl start docker
 systemctl enable docker
 usermod -aG docker ec2-user
 
-copy eks-kube-ctl.sh cd ..
+mv eks-kube-ctl.sh cd ..
 
 
 # curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.34.2/2025-11-13/bin/linux/amd64/kubectl
