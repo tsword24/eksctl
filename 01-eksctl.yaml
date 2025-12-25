@@ -6,7 +6,7 @@ metadata:
   region: us-east-1
 managedNodeGroups:
   - name: roboshop-dev
-    instanceTypes: ["t3.small"] #we can diversify this ["t3.medium","t3.large","m5.large"]
+    instanceTypes: ["t3.small","t3.medium"] #we can diversify this ["t3.medium","t3.large","m5.large"]
     desiredCapacity: 2 # default is three
     spot: true
 
